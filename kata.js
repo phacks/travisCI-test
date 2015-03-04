@@ -3,7 +3,7 @@ var kata = {};
 kata.add = function(numbers) {
 
   if(numbers === '') {
-    return 1;
+    return 0;
   }
 
   var delimiters = findDelimiter(numbers);
